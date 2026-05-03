@@ -1,6 +1,6 @@
 context:
   name: helmfile
-  version: "1.4.5"
+  version: "1.5.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/helmfile/helmfile/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 4789ebefb01a525339296c5dfa988467eb294dfe2ec1a8d78c13b18bb55a80be
+  sha256: 5b304ff8168d33bb41f75495f172ced7118dc7b35f43d56a024652e4e724d1df
   target_directory: src
 
 build:
